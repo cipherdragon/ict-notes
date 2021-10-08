@@ -1,6 +1,6 @@
 # Number systems
 
-## Converting a 2's complement number to decimal
+## 2's complement --> decimal
 
 Identify the sign of the final decimal number by MSB(most significant bit).
 
@@ -19,7 +19,7 @@ Just convert the binary to decimal.
 1. Convert the number to decimal.
 1. Take sign of the decimal number as (-)ve.
 
-## Converting a decimal to 2's complement
+## Decimal --> 2's complement
 
 1. If it's a (+)ve, just convert to binary, else,
 1. Consider only the numerical value of the decimal.
@@ -52,3 +52,8 @@ actual number
 | 1's complement | Simpler design in hardware                                                   |
 | 2's complement | Can be used to build low cost, high speed hardware for arithmetic operations |
 | Sign Magnitude | Cannot used to add or subtract, used in analogue --> digital conversion      |
+
+## Deriving a boolean expression from a given truth table
+
++ Take sum of products for logic truth value 1
++ Take product of sums for logic truth value 0

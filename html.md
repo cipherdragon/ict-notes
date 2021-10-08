@@ -13,7 +13,7 @@ Also, possible to have multiple terms multiple descriptions.
 # frames
 
 used to divide browser window into multiple sections, each section can be loaded with a seperate html doc.
-A collection of frames in a browser window is known as a _frameset_. Divided into frames in a similar way
+A collection of frames in a browser window is known as a *frameset*. Divided into frames in a similar way
 used in tables; rows and columns.
 
 ## disadvantages of frames
@@ -63,3 +63,16 @@ Following is a list of attribs.
 + `name` - This allows to give a name
 + `frameborder` - boolean attrib, takes 1 or 0, indicate wether the border should be displayed, overrides frameset's style.
 + `marginwidth` & `marginheight` - margin width and height, value is given in pixels no need to put unit as `px`.
+
+## 3 mechanisms used to apply styles
+
+1. Inline css
+    - That's what they call applying css in "style" attr.
+1. Internal css
+    - That's the name they assigned for the action of using \<style\> element.
+1. External css
+
+## Important for exam!!!
+
++ Eventhough in real world, almost all the browsers by default open links having "\_blank" for "target" 
+attribute, in exam, assume those links will open in a new window rather than a new tab. Exam Logic!

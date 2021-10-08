@@ -137,3 +137,9 @@ that signal having been received.
 **NOTE : I NEED HELP ON COVERING THIS TOPIC. SINCE MY NOTES ARE AVAILABLE ON GITHUB, IF YOU ARE 
 A RANDOM PERSON READING THIS AND YOU KNOW ABOUT THE TOPIC, PLEASE HELP ME. THE RELATIONSHIP BETWEEN
 RTD AND LIGHT SPEED?**
+
+## DMZ (Demilitarized Zone)
+
+Physical or logical subnetwork that contains and exposes an organization's
+external-facing services to an untrusted, usually larger, network such as the
+Internet. 
