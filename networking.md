@@ -143,3 +143,16 @@ RTD AND LIGHT SPEED?**
 Physical or logical subnetwork that contains and exposes an organization's
 external-facing services to an untrusted, usually larger, network such as the
 Internet. 
+
+## Reasons a website not working on a computer in a LAN
+
++ DNS not working
++ Proxy server down
++ Change the proxy settings
++ Internet link isn't working
++ Switch is broken/ not working
++ Cable damage
++ Network card of the computer not working
++ TCP/IP configuration is wrong
++ Computer not properly connected to the network
++ Remote website is down

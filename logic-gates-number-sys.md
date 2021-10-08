@@ -53,6 +53,13 @@ actual number
 | 2's complement | Can be used to build low cost, high speed hardware for arithmetic operations |
 | Sign Magnitude | Cannot used to add or subtract, used in analogue --> digital conversion      |
 
+## Advantages of using 2's compliment
+
++ More efficient calculations.
++ Possible to represent (-)ve numbers.
++ Subtractions are carried out as additions.
++ Has only one representation for 0.
+
 ## Deriving a boolean expression from a given truth table
 
 + Take sum of products for logic truth value 1

@@ -2,7 +2,7 @@
 
 + Relationship between the "process" and a "program" in an OS?
     - Process is program in execution. Program can have multiple processes.
-	- **"Process" is not an alternative name for "program"**
+    - **"Process" is not an alternative name for "program"**
 
 + Requirement of "swapped out and waiting" and "swapped out and blocked" states
 in the 7 state process model of an OS (2013)?
@@ -31,3 +31,17 @@ that it can be restored and resume execution at a later point.
 1. Running POST (power on self test).
 1. Execute BIOS.
 1. Transfer the control to the OS.
+
+## Why there's a _page table_?
+
+This structure holds the mapping between process pages and memory frames.
+
+## Uses of virtual memory
+
++ Virtual memory makes it possible to run applications that require more memory
+than the physical memory.
+
+## Common registers
+
++ program counter / instruction pointer
+    - Store the address of the next instruction to be executed.

@@ -50,3 +50,16 @@ a foreign key of another table establishes a relationship between those two tabl
 + Easy to query, filter and search data
 + Data security is high
 + Scalability
+
+## Advantages of normalisation
+
+Note: ACID stands for Atomicity, Consistency, Isolation, Durability
+
++ **Data integrity and consistancy is maintained** hence DB is ACID complient.
++ **No data duplication** (**Smaller size database**).
++ **Data modification anamalies are reduced.**
++ **Better performance** (faster access speeds)
++ **Cleaner and easier to maintain and change.**
++ **Updates run quickly** as no data is being duplicated in multiple locations.
++ **Insert operations run quickly** as there are duplication is not required.
++ **Smaller tables.**

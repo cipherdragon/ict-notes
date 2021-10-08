@@ -76,3 +76,19 @@ Following is a list of attribs.
 
 + Eventhough in real world, almost all the browsers by default open links having "\_blank" for "target" 
 attribute, in exam, assume those links will open in a new window rather than a new tab. Exam Logic!
+
+## Uses of [external] CSS
+
++ **Easy maintainance** and update web pages
++ **consistency** throughout the **website**.
++ **Re-style** any document, without modifying original html structure.
++ **single document** can be presented in **multiple styles** with multiple
+stylesheets (Multiple device compatability)
++ **More formatting options**
++ **Reduce code duplication**
++ **SEO benifits**
++ **Clean code**
+
+## CSS group selector
+
+`.elem1, .elem2, .elem3 {}`
