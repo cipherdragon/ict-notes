@@ -116,13 +116,14 @@ make the connections by searching for the cells in the immediate vicinity.
 
 ## OSI Reference model
 
-1. Application
-1. Presentation
-1. Session
-1. Transport
-1. Network
-1. Data Link
 1. Physical
+1. Data Link
+1. Network
+1. Transport
+1. Session
+1. Presentation
+1. Application
+
 
 ## Important points about threats like phishing when answering questions
 
@@ -156,3 +157,9 @@ Internet.
 + TCP/IP configuration is wrong
 + Computer not properly connected to the network
 + Remote website is down
+
+## Why a all-to-all network topology isn't suitable for a school computer network?
+
++ Impractical due to buildings being geographically seperated.
++ Difficult to configure.
++ There's no such connectivity requirement for a school.
